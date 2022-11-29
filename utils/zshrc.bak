@@ -1,0 +1,8 @@
+# PATH
+PATH="$PATH:/Users/alpicany/piscina42Nov22/utils"
+export PATH
+#Alias
+alias wmi='whoami'
+# If install coreutils 'brew install coreutils'
+# alias l='gls --color -lhF --group-directories-first'
+alias gc='funtion compiler() { gcc -Wall -Werror "$1" && ./a.out }; compiler'
