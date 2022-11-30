@@ -14,7 +14,7 @@ alias wmi='whoami'
 # Alias accepting parametres: The alias gc build a funtion that execute the gcc
 # command with some fixed parameters and one open used to add the name of the c
 # file. 
-alias gc='funtion compiler() { gcc -Wall -Werror "$1" && ./a.out }; compiler'
+alias gc='funtion compiler() { gcc -Wall -Werror -Wextra "$1" && ./a.out }; compiler'
 
 function parse_git_branch() {
     git branch 2> /dev/null | sed -n -e 's/^\* \(.*\)/[\1]/p'
