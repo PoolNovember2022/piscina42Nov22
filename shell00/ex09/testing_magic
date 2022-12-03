@@ -1,0 +1,8 @@
+$echo $(python -c 'print "@"*41 + "42"') > test42
+$file -m ft_magic test42
+#If the result of the last command is:
+test42: 42 file
+then everything is fine.
+file -C -m <your magic file> to compile it, and file -m <your magic file> to use it.
+
+The files ft_magic.mgc and magic.mgc were created after usig -> file -C -m ft_magic
