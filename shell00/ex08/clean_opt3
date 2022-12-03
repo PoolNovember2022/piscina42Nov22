@@ -1,0 +1,2 @@
+$find . -type f -regex '\.\/^[#]' -print
+S'ha intentat fer servir expresions regulars per fer la busqueda dels fitxers pero no he sapiguit fer -ho. No ha hagut manera de visualitzar els resultats.
