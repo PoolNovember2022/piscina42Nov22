@@ -15,6 +15,8 @@ alias wmi='whoami'
 # command with some fixed parameters and one open used to add the name of the c
 # file. 
 alias gc='funtion compiler() { gcc -Wall -Werror -Wextra "$1" && ./a.out }; compiler'
+#Alias norminette
+alias n='norminette -R CheckForbiddenSourceHeader'
 
 function parse_git_branch() {
     git branch 2> /dev/null | sed -n -e 's/^\* \(.*\)/[\1]/p'
