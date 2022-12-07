@@ -1,5 +1,5 @@
 #PATH
-PATH="$PATH:/Users/alpicany/piscina42Nov22/utils"
+PATH="$PATH:/Users/alpicany/piscina42Nov22/utils:/Users/alpicany/shell_scripts"
 export PATH
 
 #FPATH
